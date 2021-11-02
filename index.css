@@ -1,0 +1,122 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: url("http://bit.ly/kings_college_chapel") no-repeat center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+body{
+    max-width: 50px auto 50px auto;
+    background: rgba(238, 189, 189, 0.959);
+    width: 100%;
+    
+}
+nav {
+    background: skyblue;
+    width: 100%;
+    overflow: auto;
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+   float: right;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+nav a:hover{
+    background: slateblue;
+}
+.header h2{
+    text-align: center;
+
+}
+.conatiner{
+    overflow: auto;
+    margin: auto;
+    max-width: 1200px;
+}
+.images{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 400px;
+}
+.images img{
+    width: 400px;
+    height: 300px;
+}
+.desc{
+    text-align: center;
+    font-size: 17px;
+}
+.footer{
+     text-align: center;
+    
+    margin: 20px;
+    line-height: 30px;
+
+}
+
+/*p{
+    font-size: 16px;
+    text-align: center;
+    color:black;
+
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+   
+}
+.images{ 
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    margin: 50px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+}
+#images{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-evenly;
+    border-image: round
+    ;
+}
+.images li{
+    height: 300px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+
+}
+
+footer .columns{
+    float: left;
+}
+footer .column-2>h5{
+    text-align: right;
+}
+footer .column-1{
+    text-align: center;
+} footer>li{
+    list-style-type: none;
+}
+footer{
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+footer>ul>li{
+display: block
+}*/
